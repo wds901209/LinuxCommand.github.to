@@ -1,0 +1,123 @@
+root@DESKTOP-7LOAG5A:~# cat LinuxCommand.txt
+
+    1  mkdir ~/repos/test
+    2  mkdir ~/repos
+    3  mkdir ~/repos/test
+    4  cd ~/repos/test
+    5  git init
+    6  code .
+    7  exit
+    8  cd ~/repos/test
+    9  git status
+   10  exit
+   11  multipass list
+   12  snap install multi[ass
+   13  snap install multipass
+   14  multipass list
+   15  vi
+   16  vim
+   17  vi hello.txt
+   18  ls
+   19  cat
+   20  ls
+   21  cat hello.txt
+   22  vi hello.txt
+   23  vi hello1.txt
+   24  cd
+   25  vi .vimrc
+   26  history
+   27  ls
+   28  ls -l
+   29  ls -a
+   30  ls -h -t -r -l
+   31  cd /
+   32  ls -ltr
+   33  cd
+   34  ln -s hello.txt link.txt
+   35  ls -ltr
+   36  cat hello.txt
+   37  echo "Hello Linux" > file2.txt
+   38  ls -ltr
+   39  ln file2.txt hardlink.txt
+   40  ls -ltr
+   41  ls -ltri
+   42  echo "Hello GeekHour" > file2.txt
+   43  cat hardlink.txt
+   44  ls -ltr
+   45  ln file2.txt hard2.txt
+   46  ls -ltr
+   47  rm file2.txt
+   48  ls -tlr
+   49  cat hard2.txt
+   50  rm hello.txt
+   51  ls -ltr
+   52  chmod +x hello1.txt
+   53  ls -ltr
+   54  chmod -x hello1.txt
+   55  ls -ltr
+   56  chmod ug+x hello1.txt
+   57  ls -ltr
+   58  chmod 777 hello.txt
+   59  chmod 777 hello1.txt
+   60  ls -ltr
+   61  touch hello.txt
+   62  ls -ltr
+   63  touch hello.txt
+   64  ls -ltr
+   65  echo "Hello"
+   66  echo "hello" > hello.txt
+   67  cat hello.txt
+   68  pwd
+   69  cd /
+   70  pwd
+   71  cd /root
+   72  pwd
+   73  cd ../..
+   74  pwd
+   75  ls
+   76  cd bin
+   77  ls
+   78  cat
+   79  ls ls
+   80  ls cat
+   81  cd /etc
+   82  ls
+   83  cd /root
+   84  ls
+   85  cp file2.txt file3.txt
+   86  cd /home
+   87  cp file2.txt file3.txt
+   88  ls
+   89  pwd
+   90  cd /root
+   91  cp file2.txt file3.txt
+   92  .
+   93  cd .
+   94  ls -ltr
+   95  cp hello.txt hello1.txt
+   96  ls -ltr
+   97  mv hello1.txt hello2.txt
+   98  ls -ltr
+   99  rm hello2.txt
+  100  mkdir folder
+  101  ls -ltr
+  102  mkdir -p folder1/folder2/folder3
+  103  ls -ltr
+  104  cd folder1
+  105  ls
+  106  cd folder2/
+  107  ls
+  108  cd ../..
+  109  pwd
+  110  ls
+  111  cp -r folder1 folder_copy
+  112  ls
+  113  du
+  114  tree
+  115  sudo apt install tree
+  116  tree
+  117  redir folder
+  118  rmdir folder
+  119  rm -r folder_copy
+  120  ls -ltr
+  121  history > LinuxCommand.txt
